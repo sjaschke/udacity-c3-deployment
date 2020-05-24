@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: saja/reverseproxy
+      - image: saja/reverseproxy:1.0.3
         name: reverseproxy
         imagePullPolicy: Always
         resources:
